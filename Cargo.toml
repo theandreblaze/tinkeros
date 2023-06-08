@@ -2,7 +2,7 @@
 name = "play_os"
 version = "0.1.0"
 edition = "2018"
-authors = ["Andre Blaze Henshaw <andreblaze@axis.io>"]
+authors = ["Andre Blaze Henshaw"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [profile.dev]
