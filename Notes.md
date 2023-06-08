@@ -9,6 +9,7 @@ In this freestanding binary, a few key dependencies are exposed and replaced - i
 
 - 1 Inner attributes:  #![no_std], #![no_main]
     source: https://doc.rust-lang.org/reference/attributes.html
+    
     These are attributes which annotate the item that they are within (such as a module), indicating a compile-time condition. In this example, these inner attributes unlink the standard library, and unset the dependency on a 'main' function as an entry-way to the program respectively.
 
 - 2 Custom handlers & diverging functions: panic(_info: &PanicInfo) ->!{...}
