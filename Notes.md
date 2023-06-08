@@ -27,7 +27,7 @@ In this freestanding binary, a few key dependencies are exposed and replaced - i
 
     Within main.rs, the panic handler is a diverging function because it isnt expected to return, rather like the main loop of the code on a network device such as a server.
 
-    The LLVM manual describes exceptions as events that rarely occur within the normal scope of operation of a program, and seen in that light, diverging functions allow the freestanding binary, which has no OS support, to handle errors as they occur, without terminating the program itself (source:  source: https://llvm.org/docs/ExceptionHandling.html). 
+    The LLVM manual describes exceptions as events that rarely occur within the normal scope of operation of a program, and seen in that light, diverging functions allow the freestanding binary, which has no OS support, to handle errors as they occur, without terminating the program itself (source: https://llvm.org/docs/ExceptionHandling.html). 
     The diverging function is compatible with all types, and can be used as a wrapper around errors whose values are unknown or indeterminate.
 
 
