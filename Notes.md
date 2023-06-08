@@ -35,7 +35,7 @@ In this freestanding binary, a few key dependencies are exposed and replaced - i
 
 # A minimal Rust Kernel.
 
-A kernel is the interface between the hardware components and the software applications on a computer, and acts as an authority for memory, allocating resources via system calls and residing in a bespoke memory space on the computer. It is the kernel's responsibility to assign the order of execution of programs on the computer and it differs from the bootloader (BIOS, GRUB or UEFI), which are stored in special flash memory on the motherboard) and/or the OS.
+A kernel is the interface between the hardware components and the software applications on a computer, and acts as an authority for memory, allocating resources via system calls and residing in a bespoke memory space on the computer. It is the kernel's responsibility to assign the order of execution of programs on the computer and it differs from the bootloader (BIOS, GRUB or UEFI), which is stored in special flash memory on the motherboard) and/or the OS.
 
 
 
