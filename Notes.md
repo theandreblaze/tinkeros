@@ -1,7 +1,7 @@
 # A freestanding Rust binary
 
 
-Reduction of the complexity involved in creating applications is one of the many reasons for the popularity of modern programming environments. However; this reduction can also hide interesting parts of the application lifecycle - sometimes because of language abstractions for implementing inheritance, polymorphism and code reuse, and at other times, beacause of less-visible interactions between the compiler/interpreter and the operating system which manages access to the APIs for system calls and error handling.
+Reduction of the complexity involved in creating applications is one of the many reasons for the popularity of modern programming environments. However, this reduction can also hide interesting parts of the application lifecycle - sometimes because of language abstractions for implementing inheritance, polymorphism and code reuse, and at other times, because of less-visible interactions between the compiler/interpreter and the operating system which manages access to the APIs for system calls and error handling.
 
 
 
